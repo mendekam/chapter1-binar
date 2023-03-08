@@ -1,6 +1,6 @@
 package com.tutorial;
 
-public class Palindrome {
+public class Palindrome implements PalindromeOutput{
      public boolean isPalindrome(String s, int a, int b){
         if(b == a || b < a){
             return true;
@@ -15,5 +15,15 @@ public class Palindrome {
     }
     void keluaran(){
         System.out.println("Keluaran Palindrome");
+    }
+
+    @Override
+    public String notPalindrome(String data) {
+        return data + " adalah Palindrome";
+    }
+
+    @Override
+    public String palindrome(String data) {
+        return data + " bukan Palindrome";
     }
 }

@@ -21,10 +21,10 @@ public class KataPalindrome extends Palindrome {
         if(data.isBlank()) return "Data input kosong";
 
         if (isPalindrome(data.toLowerCase().trim(), 0, strLength - 1)) {
-            return data + " adalah Palindrome";
+            return palindrome(data);
         }
         else {
-            return data + " bukan Palindrome";
+            return notPalindrome(data);
         }
     }
 }
