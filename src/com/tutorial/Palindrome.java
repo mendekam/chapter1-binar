@@ -19,11 +19,11 @@ public class Palindrome implements PalindromeOutput{
 
     @Override
     public String notPalindrome(String data) {
-        return data + " adalah Palindrome";
+        return data + " bukan Palindrome";
     }
 
     @Override
     public String palindrome(String data) {
-        return data + " bukan Palindrome";
+        return data + " adalah Palindrome";
     }
 }
