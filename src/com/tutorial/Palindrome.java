@@ -18,9 +18,8 @@ public class Palindrome implements InterfacePalindrome {
     public void keluaran() {
         Scanner scanner = new Scanner(System.in);
         String data;
-
-        System.out.println("PROGRAM CEK PALINDROME");
-        System.out.print("Masukkan Data : "); data = scanner.nextLine();
+        System.out.print("Masukkan Data : ");
+        data = scanner.nextLine();
         System.out.println(perbandingan(data));
     }
 
