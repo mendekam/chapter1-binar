@@ -1,5 +1,6 @@
-public interface sebuahMethod {
+//interface
+interface SebuahMethod {
 
-    void perbandingan();
-    void keluaran();
+    public String perbandingan(String data);
+    public void keluaran();
 }
