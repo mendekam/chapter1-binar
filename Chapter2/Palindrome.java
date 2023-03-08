@@ -13,7 +13,7 @@ public class Palindrome implements SebuahMethod {
         String data = "";
         
         System.out.println("PROGRAM CEK PALINDROME");
-        System.out.println("Masukkan Data : "); data = scanner.nextLine();
+        System.out.print("Masukkan Data : "); data = scanner.nextLine();
         System.out.println(perbandingan(data));
     }
 
@@ -37,7 +37,6 @@ public class Palindrome implements SebuahMethod {
         }
 
     }
-
     
 
 
